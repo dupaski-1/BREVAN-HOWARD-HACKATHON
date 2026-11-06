@@ -39,7 +39,7 @@ Team Neyman brought together people from very different backgrounds, which made 
 
 * Arnaud Du Pasquier ([@dupaski-1](https://github.com/dupaski-1))
 * Grégoire Du Pasquier (https://www.linkedin.com/in/gregoire-du-pasquier-68104412b/)
-* Tianer Zhou (https://www.linkedin.com/in/tianer-zhou/)
+* Tianer Zhou (https://www.linkedin.com/in/tianer-zhou/, https://github.com/ezhoureal)
 * Marco D'Addezio (https://www.linkedin.com/in/marco-d-addezio-2bb3049a/)
 
 ## Running it
