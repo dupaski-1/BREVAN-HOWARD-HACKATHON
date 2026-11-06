@@ -2,7 +2,7 @@
 
 Three agents for the Uncertain World Simulator, plus an offline test world.
 
-    python backtest.py 20      # compare the agents on 5 synthetic scenarios
+    python backtest.py 20      # compare the agents on 11 scenarios: the portal's 10 episodes plus a long stagflation
     python test_agents.py      # legality and behaviour checks
 
 Files: core.py (mandate, projection, z-scores), agents.py (the 3 agents),
