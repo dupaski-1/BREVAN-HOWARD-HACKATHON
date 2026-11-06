@@ -1,4 +1,4 @@
-# Multi-asset allocation agent (BREVAN HOWARD HACKATHON EPFL 2026)
+# Multi-asset allocation agent (BREVAN HOWARD HACKATHON EPFL 2026) - 3rd Place 🥉
 
 My agent (team Neyman) for part 2 of the Uncertain World Simulator hackathon, November 2026. It runs a weekly book across 5 asset classes inside a fixed investment mandate, and has to avoid losing that mandate through drawdowns or broken limits.
 
