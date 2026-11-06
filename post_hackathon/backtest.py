@@ -5,7 +5,10 @@ import numpy as np
 from agents import ReferenceAgent, RegimeTiltAgent, RobustAgent
 from sim import run
 
-SCENARIOS = ["stable", "abrupt", "outage", "rare_stress", "stagflation_long"]
+SCENARIOS = [
+    "stable", "drift", "abrupt", "rare_stress", "recovery", "outage",
+    "liquidity_shock", "crowding", "narrative_shock", "cascade", "stagflation_long",
+]
 SEEDS = range(int(sys.argv[1]) if len(sys.argv) > 1 else 12)
 
 

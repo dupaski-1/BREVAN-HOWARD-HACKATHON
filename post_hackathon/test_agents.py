@@ -4,6 +4,7 @@ import numpy as np
 from agents import ReferenceAgent, RegimeTiltAgent, RobustAgent
 from core import LABELS, SIGNALS, Observation, is_legal, project
 from sim import run
+from backtest import SCENARIOS
 
 
 def test_projection_always_legal():
@@ -29,7 +30,7 @@ def test_missing_data_is_not_calm():
 
 
 def test_mandate_rules_hold_in_every_scenario():
-    for sc in ("stable", "abrupt", "outage", "rare_stress", "stagflation_long"):
+    for sc in SCENARIOS:
         for cls in (ReferenceAgent, RegimeTiltAgent, RobustAgent):
             run(cls(), sc, 7)  # sim.run asserts legality every period
 
